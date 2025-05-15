@@ -15,11 +15,13 @@ const TechStack = () => {
       duration:1,
       ease:'power2.inOut',
       stagger:0.2,
-      scrollTrigger:{
-        trigger:'#skills',
-        start:'top center'
-
+      scrollTrigger: {
+        trigger: '#skills',
+        start: 'top center',
+        toggleActions: 'play none none reverse',
+        once: true,
       }
+      
     })
   })
 
