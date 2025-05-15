@@ -73,10 +73,11 @@ useGSAP(() =>{
         </header>
         {/* right side */}
         <figure>
-          <div className="hero-3d-layout">
-            <HeroExperince/>
-          </div>
-        </figure>
+  <div className="hero-3d-layout hidden md:block">
+    <HeroExperince />
+  </div>
+</figure>
+
       </div>
     </section>
   );
