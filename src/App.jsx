@@ -3,7 +3,7 @@ import Hero from './sections/Hero'
 import ShowCaseSection from './sections/ShowCaseSection'
 import Navbar from './components/Navbar'
 import LogoSection from './components/LogoSection'
-import FeactureCards from './sections/fEACTUREcARDS.JSX'
+import FeactureCards from './sections/FeactureCards.JSX'
 import Experince from './sections/Experince'
 
 import TechStack from './sections/TechStack'
